@@ -4,6 +4,10 @@
 
 The project is a demonstration of layout structuring using Flexbox in HTML and CSS. Each HTML file represents a different layout and structure for showcasing products and checkout.
 
+### Live Page
+
+You can view the live page [here](https://mansooriabbas.github.io/lexicon-poster-shop/).
+
 ## Files
 
 ### checkout.html
@@ -35,6 +39,4 @@ The CSS file contains styling for:
 - Images are referenced from the `assets` folder.
 - The project demonstrates how Flexbox can be utilized for responsive and organized layout structuring in web development.
 
-### Live Page
 
-You can view the live page [here](https://mansooriabbas.github.io/lexicon-poster-shop/).
