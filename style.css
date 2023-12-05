@@ -7,9 +7,24 @@ body {
 }
 
 header {
-  height: 250px;
+  height: 100%;
 }
-
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+.bottom-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40%;
+}
 .navbar {
   height: 100%;
   width: 100%;
@@ -21,15 +36,15 @@ header {
   background-color: #00e472;
   overflow: hidden;
 }
+.nav-icon {
+  height: 25px;
+}
 
 .navbar img {
-  width: 400px;
-  position: relative;
-  bottom: -200px;
+  width: 150px;
 }
+
 .navbar h1 {
-  position: absolute;
-  top: 20px;
   color: black;
   font-size: 50px;
 }
@@ -43,6 +58,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 .cards {
@@ -148,4 +164,49 @@ sec-3 {
   flex-direction: column;
   justify-content: center;
   line-height: 0px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.purchase{
+  margin-top: 20px;
+  width: 900px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+ 
+}
+
+.card-wrapper-checkout {
+  height: 100%;
+  width: 100%;
+  max-width: 800px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.info-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  
+}
+.item1,
+.item2,
+.price,
+.total {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  
 }
