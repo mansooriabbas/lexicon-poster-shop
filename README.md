@@ -16,7 +16,7 @@ The `checkout.html` file contains:
 
 ### index.html
 
-The `index.html`file contains:
+The `index.html` file contains:
 
 - A header with navigation and product details.
 - Sections displaying different product cards, each with an image, description, and a button for purchase.
@@ -34,3 +34,7 @@ The CSS file contains styling for:
 
 - Images are referenced from the `assets` folder.
 - The project demonstrates how Flexbox can be utilized for responsive and organized layout structuring in web development.
+
+### Live Page
+
+You can view the live page [here](https://mansooriabbas.github.io/lexicon-poster-shop/).
